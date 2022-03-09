@@ -101,7 +101,8 @@ public class Internet {
      * @return an url to a random image with the given characteristics.
      */
     public String image(Integer width, Integer height, Boolean gray, String text) {
-        return String.format("http://lorempixel.com/%s%s/%s/%s/%s",
+//        return String.format("http://lorempixel.com/%s%s/%s/%s/%s",
+        return String.format("https://www.ky-express.com/%s%s/%s/%s/%s",
                 gray ? "g/" : StringUtils.EMPTY, width, height, faker.fakeValuesService().resolve("internet.image_category", this, faker),
                 StringUtils.isEmpty(text) ? StringUtils.EMPTY : text);
     }

@@ -3,7 +3,7 @@ package com.github.javafaker;
 import com.github.javafaker.idnumbers.EnIdNumber;
 import com.github.javafaker.idnumbers.SvSEIdNumber;
 
-public class IdNumber {
+public class  IdNumber {
     private final Faker faker;
 
     protected IdNumber(Faker faker) {

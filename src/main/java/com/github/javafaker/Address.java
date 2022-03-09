@@ -71,6 +71,10 @@ public class Address {
         return faker.fakeValuesService().resolve("address.city_name", this, faker);
     }
 
+    public String county() {
+        return faker.fakeValuesService().resolve("address.county", this, faker);
+    }
+
     public String state() {
         return faker.fakeValuesService().resolve("address.state", this, faker);
     }
